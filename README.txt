@@ -56,7 +56,7 @@ NOTE:  The hashtags may have been modified to remove any commas and whitespaces 
 This feature is empty when there are no hashtags in the tweet.
 
 7.  user_location
-This corresponds to the 'location' key of the 'user' object.  This is free text; the user will free to specify
+This corresponds to the 'location' key of the 'user' object.  This is free text; the user is free to specify
 any location of choice.  This feature was also modified to remove any commas and whitespaces to bring it to
 a CSV format.  This feature is empty when the user has not specified any location.
 
