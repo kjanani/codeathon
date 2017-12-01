@@ -27,7 +27,7 @@ Each csv file is has 10 columns.  The column headers are:
 
 Details about each column:
 
-The first 5 features are numerical features, and will not have any missing values.  
+The first 5 features are numerical features.  
 
 1.  in_reply_to_status_id [N]
 Indicates whether or not a tweet is a reply to another tweet.  It is a 0/1 binary feature.
