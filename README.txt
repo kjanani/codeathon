@@ -69,5 +69,6 @@ WWW MMM DD HH:MM:SS +0000 2015
 where WWW is the weekday (e.g Mon, Tue), MMM is the month (e.g Jan, Jun) and DD is the 2-digit date.
 
 10. text
-text of the tweet
+text of the tweet.  This has also been vastly modified to remove white spaces, especially \n and commas to bring
+it to a CSV format.
 -----------------------------------------------------------------------------------------
