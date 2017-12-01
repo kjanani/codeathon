@@ -1,3 +1,17 @@
+The Twitter Public Streaming API was used to collect data using keyword tracking
+(the tweets containing certain predetermined keywords are collected).
+The data was collected between June and November 2015.  From the data obtained from Twitter,
+certain features have been chosen and provided in a csv file format.  The data has been
+split for each keyword.  
+
+6 keywords that were used for tracking (and hence the appropriate filenames) are:
+codeine (431625 rows)
+percocet (75215 rows)
+vicodin (28610 rows)
+oxycontin (27734 rows)
+oxycodone (18061 rows)
+hydrocodone (9981 rows)
+
 Each csv file is has 10 columns.  The column headers are:
 
 1.  in_reply_to_status_id
