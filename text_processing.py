@@ -31,10 +31,26 @@ def clean(text):
     for each in text:
         if(str.find(each,'http') != -1):
             continue;
-        if(!each.isalnum()):
+        if not each.isalnum():
             continue;
         new_text.append(str.lower(each));
-    text = ' '.join(text);
+    text = ' '.join(new_text);
 
     return text;
+
+
+if __name__ == '__main__':
+
+    lines = open('new_temp.json','r').readlines()
+    fout = open('cleantext_tweetid.txt','w')
+
+    for line in lines:
+        try:
+            JO = json.loads(line)
+            if('text' in JO.keys()):
+                print(JO['text'])
+                fout.write(JO['id_str'] + ':' + clean(JO['text']) + '\n')
+        except:
+            continue
+
 
