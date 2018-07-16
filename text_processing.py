@@ -3,7 +3,6 @@
 
 import os, sys
 import re
-import pymongo
 import json
 import unicodedata
 
