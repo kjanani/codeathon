@@ -41,7 +41,7 @@ def clean(text):
 
 if __name__ == '__main__':
 
-    lines = open('new_temp.json','r').readlines()
+    lines = open('temp.json','r').readlines()
     fout = open('cleantext_tweetid.txt','w')
 
     for line in lines:
